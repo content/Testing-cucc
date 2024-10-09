@@ -21,6 +21,6 @@ def test_calculateProduct():
     
 def test_calculateQoutient():
     assert calculateQuotient(6, 3) == 2
-    assert calculateQuotient(0, 1) == 0
     assert calculateQuotient(-1, 1) == -1
     assert calculateQuotient(-1, -1) == 1
+    assert calculateQuotient(0, 0) == "Err"

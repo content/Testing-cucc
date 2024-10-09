@@ -8,4 +8,4 @@ def calculateProduct(a, b):
     return a * b
 
 def calculateQuotient(a, b):
-    return a / b
+    return a / b if b else "Err"
